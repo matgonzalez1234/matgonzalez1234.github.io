@@ -1,0 +1,79 @@
+@font-face{
+    font-family: PressStart2P;
+    src: url(PressStart2P-Regular.ttf);
+}
+body{
+    background-color: cornflowerblue;
+    font-family: PressStart2P;
+}
+#boton{
+    background-color: rgb(255, 168, 127);
+    padding: 20;
+    border-style: none;
+}
+
+
+#boton:hover{
+    background-color: brown;
+}
+img{
+    border-radius: 150%;
+    width: 1.5;
+    height: 1.5;
+    float: right;
+}
+
+#imagen-boton{
+    margin: 10% 45% 5%% 40%;
+    display: block;
+    border-radius: 150%;
+    border-style: none; 
+    background-color: cornflowerblue;
+}
+
+#imagen-boton2{
+    display: block;
+    border-style: none;
+    background-color: cornflowerblue;
+    float: right;
+}
+
+
+
+#a{
+    width: 20%;
+}
+.Texto-centrado{
+    text-align: center;
+    background-color: white;
+    font-size: 1.5em;
+    border-radius: 10%;
+    float: right;
+    
+}
+.Texto-centrado2{
+    text-align: center;
+    font-size: 1.7em;
+    
+    
+}
+.color{
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .Texto-centrado{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 480px){
+    #imagen-boton{
+        width: 100%;
+        margin: 0%;
+    }
+    #imagen-boton2{
+        width: 100%;
+        margin: 0%;
+    }
+}
