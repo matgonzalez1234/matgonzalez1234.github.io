@@ -1,0 +1,107 @@
+body{
+    background-color: cornflowerblue;
+}
+#boton{
+    background-color: rgb(255, 168, 127);
+    padding: 20;
+    border-style: none;
+}
+
+
+#boton:hover{
+    background-color: brown;
+}
+img{
+    border-radius: 25px;
+    width: 0.5;
+    height: 0.5;
+    float: left;
+}
+
+#imagen-boton{
+    margin: 10% 45% 5% 40%;
+    display: block;
+    border-radius: 150%;
+    border-style: none; 
+    background-color: cornflowerblue;
+}
+
+#imagen-boton2{
+    display: block;
+    border-style: none;
+    background-color: cornflowerblue;
+    float: right;
+}
+
+
+
+#a{
+    width: 20%;
+}
+.Texto-centrado{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.524);
+    font-size: 1.5em;
+    border-radius: 25px;
+    float: right;
+    margin-bottom: 5%;
+    
+}
+.Texto-centrado2{
+    text-align: center;
+    font-size: 1.7em;
+    background-color:rgba(255, 255, 255, 0.524);
+    border-radius: 25px;
+    
+    
+}
+.Texto-centrado3{
+    background-color: rgba(255, 255, 255, 0.524);
+    font-size: 1.7em;
+    margin-bottom: 5%;
+    border-radius: 25px;
+    text-align: left;
+}
+.color{
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 768px){
+    .Texto-centrado{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 480px){
+    #imagen-boton{
+        width: 100%;
+        margin: 0%;
+    }
+    #imagen-boton2{
+        width: 100%;
+        margin: 0%;
+    }
+}
+
+
+.textonegrita{
+    font-size: 1.3em;
+    text-decoration-color: black;
+    -webkit-text-fill-color: black;
+}
+
+.textonegrita2{
+    font-size: 1.5em;
+    text-decoration-color: black;
+    -webkit-text-fill-color: black;
+}
+
+.texto-negro{
+    text-decoration-color: black;
+    -webkit-text-fill-color: black;
+}
+
+.margen{
+    margin-top: 250px;
+    text-align:center;
+}

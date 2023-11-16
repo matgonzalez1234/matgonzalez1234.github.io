@@ -1,0 +1,12 @@
+body{
+    background-color: cornflowerblue;
+    font-family: PressStart2P;
+}
+
+.carusel{
+    height: 25%;
+    width: 25%;
+    margin-left: 37%;
+    margin-right: 37%;
+    margin-top: 2%;
+}
